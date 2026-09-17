@@ -60,3 +60,4 @@ for j in books:
             "Rating": rating,
         })
 
+df = pd.DataFrame(all_book, columns=["Title", "Price", "Rating"])
