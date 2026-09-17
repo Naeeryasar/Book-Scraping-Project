@@ -61,3 +61,5 @@ for j in books:
         })
 
 df = pd.DataFrame(all_book, columns=["Title", "Price", "Rating"])
+print(f"Total book Scrraped: {len(df)}")
+df.to_csv("Book_info.csv", index=False)
