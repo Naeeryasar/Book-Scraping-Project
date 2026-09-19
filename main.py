@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 header = {"User-Agent": "Mozilla/5.0"}
 all_book = []
 
-for i in range(1, 4):
+for i in range(1, 5):
     url = f"https://books.toscrape.com/catalogue/page-{i}.html"
     print(f"Scrapping Page {i}")
 
